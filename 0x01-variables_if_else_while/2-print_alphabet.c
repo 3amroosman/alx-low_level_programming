@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - entry point
  *
@@ -13,6 +14,7 @@
 {
 
 	char ch = 'a';
+
 	while (ch <= 'z')
 	{
 		putchar(ch);
