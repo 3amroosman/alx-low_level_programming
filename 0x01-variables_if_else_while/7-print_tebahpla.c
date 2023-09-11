@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+ * main - entry point
+ *
+ * Description: print alphabets lowercase in reverse
+ *
+ * Return: 0 (success)
+ */
+
+int main(void)
+{
+	char x = 'z';
+
+	while (x >= 'a')
+	{
+		putchar(x);
+		x--;
+	}
+	putchar('\n');
+	return (0);
+}
