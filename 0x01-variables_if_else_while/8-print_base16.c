@@ -13,7 +13,7 @@ int main(void)
 
 	while (x <= 102)
 	{
-		putchar(x)
+		putchar(x);
 
 		if (x <= 57)
 		x += 39;
